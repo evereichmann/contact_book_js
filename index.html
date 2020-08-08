@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+        <title>Contact Book</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </header>
+    <body>
+        <scripttype="text/javascript" src="src/index.js" defer></script>
+        <div id="container">
+            <form id="search-form">
+                <input id="search-input" type="text">
+            </form>
+            <br/>
+            <form id="post-form">
+                <input name='name' id="name-input" type="text" placeholder="Name"></input>
+                <input name='name' id="email-input" type="text" placeholder="Email"></input>
+                <input name='image' id="image-input" type="text" placeholder="Image URL"></input>
+                <input id="submit" class="newcontactbutton" type="submit">
+            </form>
+            <div id="contact-container">
+                <!-- <div class="contact-card">
+                    <div class="contact-frame">
+                      <h1 class="center-text">${contact.name}</h1>
+                      <div class="contact-image">
+                        <img data-id="${contact.id}" src="${contact.img}">
+                      </div>
+                      <button data-id=${contact.id} data-action="delete" class="contact-button">Delete</button>
+                    </div> -->
+                  </div>
+              </div>    
+        </div>
+    </body>
+</html>
