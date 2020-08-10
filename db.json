@@ -1,17 +1,16 @@
 {
-    "contacts": [
-        {
-            "id": 1,
-            "name": "Eve",
-            "email": "ereichmann4@aol.com",
-            "img": "https://miro.medium.com/max/3150/1*drWTkVFw0eBw2JzCmHkI3Q.jpeg"
-        },
-        {
-            "id":2,
-            "name": "Ace",
-            "email": "ace********@gmail.com",
-            "img": "https://s3.amazonaws.com/f6s-public/profiles/1451927_original.jpg"
-        },
-    ]
-
+  "contacts": [
+    {
+      "name": "Eve Reichmann",
+      "email": "ereichmann4@aol.com",
+      "image": "https://miro.medium.com/max/3150/1*drWTkVFw0eBw2JzCmHkI3Q.jpeg",
+      "id": 1
+    },
+    {
+      "name": "Ace Ujimori",
+      "email": "aceujimore@gmail.com",
+      "image": "https://s3.amazonaws.com/f6s-public/profiles/1451927_original.jpg",
+      "id": 2
+    }
+  ]
 }

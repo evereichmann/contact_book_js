@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </header>
     <body>
-        <scripttype="text/javascript" src="src/index.js" defer></script>
+        <script type="text/javascript" src="src/index.js" defer></script>
         <div id="container">
             <form id="search-form">
                 <input id="search-input" type="text">
@@ -18,18 +18,10 @@
                 <input name='image' id="image-input" type="text" placeholder="Image URL"></input>
                 <input id="submit" class="newcontactbutton" type="submit">
             </form>
+        
             <div id="contact-container">
-                <div class="contact-card">
-                    <div class="contact-frame">
-                      <h1 class="center-text">${contact.name}</h1>
-                      <div class="contact-image">
-                        <img data-id="${contact.id}" src="${contact.img}">
-                      </div>
-                      <h6 class="center-text">${contact.email}</h1>
-                      <button data-id=${contact.id} data-action="delete" class="deletecontactbutton">Delete</button>
-                    </div>
-                  </div>
-              </div>    
+                
+            </div>    
         </div>
     </body>
 </html>

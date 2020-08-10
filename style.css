@@ -4,7 +4,7 @@ body {
   }
   
   #container {
-    width: 1000px;
+    /* width: 1000px; */
     margin: auto;
     margin-top: 50px;
   }
@@ -23,7 +23,7 @@ body {
   
   .contact-card {
     float: left;
-    width: 250px;
+    width: auto;
     margin: auto;
   }
   
@@ -35,6 +35,7 @@ body {
   }
   
   .contact-image {
+    height: 100px;
     width: 96px;
     margin: auto;
   }
